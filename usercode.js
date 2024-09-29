@@ -10,7 +10,7 @@ module.exports = async (data) => {
 
         request = {
             method: 'get',
-            url: 'https://blockchain.info/ticker'
+            url: 'https://blockchain.info/ticke'
         };
 
         response = await axios(request);
